@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3c3c3c;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#main {
+    height: 500px;
+    width: 700px;
+    margin-left: 120px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

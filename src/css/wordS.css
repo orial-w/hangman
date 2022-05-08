@@ -1,0 +1,27 @@
+.wordSpace {
+    height: 60px;
+    width: 700px;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wordSpace p {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.wordSpace .alphaLetter {
+    height: 60px; width: 60px;
+    background-color: #5c5c7c;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.wordSpace .alphaLetter p {
+    text-align: center;
+    margin-top: -8px;
+    font-size: 40px;
+}
