@@ -1,11 +1,11 @@
 .wordSpace {
     height: 60px;
-    width: 700px;
     border-radius: 15px;
-    margin: 20px;
+    margin: 15px;
     text-align: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .wordSpace p {

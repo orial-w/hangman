@@ -1,7 +1,7 @@
 import React from 'react'
 import './../css/popup.css'
 
-export default (req) => {
+export default function popup (req) {
     return (req.trigger) ? (
         <div id="popup">
             <div className="popup-window">

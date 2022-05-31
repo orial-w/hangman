@@ -2,6 +2,7 @@ import React from "react";
 import checkMistakes from './checkMistakes.js';
 import Popup from "./popup.jsx";
 import CryptoJS from "crypto-js";
+import WordSpace from "./wordSpace.jsx";
 import '../css/forc.css'
 
 export default function Forc(){
@@ -74,6 +75,7 @@ export default function Forc(){
                     <p>Parabéns você acertou, a palavra era "{word.toLowerCase()}".</p>
                     <p>Para jogar novamente basta recarregar a página.</p>
                 </Popup>
+                <WordSpace></WordSpace>
                 {SpriteHangman()}
             </div>
         </>

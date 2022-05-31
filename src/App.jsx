@@ -1,9 +1,7 @@
 import React from 'react';
 import Header from './components/header.jsx'
-import WordS from './components/wordSpace.jsx'
 import Forc from './components/forc.jsx'
 import Alpha from './components/alpha.jsx'
-import LastLetter from './components/lastLetter.jsx';
 import chooseWord from './chooseWord.js';
 import qwert from './qwert.json'
 import CryptoJs from 'crypto-js';
@@ -26,14 +24,14 @@ localStorage.setItem('mistakes', 1);
 
 export default function App() {
   return (
-    <>
-      <Header></Header>
+    <div id="app">
+    <Header></Header>
       <div id="main">
         <Forc></Forc>
-        <WordS></WordS>
-        <Alpha></Alpha>
+        <div id="AlphaBck">
+          <Alpha></Alpha>
+        </div>
       </div>
-      <LastLetter></LastLetter>
-    </>
+    </div>
   );
 }

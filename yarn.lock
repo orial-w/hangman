@@ -4351,7 +4351,11 @@ fs.realpath@^1.0.0:
 fs@^0.0.1-security:
   version "0.0.1-security"
   resolved "https://registry.yarnpkg.com/fs/-/fs-0.0.1-security.tgz#8a7bd37186b6dddf3813f23858b57ecaaf5e41d4"
+<<<<<<< HEAD
   integrity sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
+=======
+  integrity sha512-3XY9e1pP0CVEUCdj5BmfIZxRBTSDycnbqhIOGec9QYtmVH2fbLpj86CFWkrNOkt/Fvty4KZG5lTglL9j/gJ87w==
+>>>>>>> 678cbbe6 (Design changes)
 
 fsevents@^2.3.2, fsevents@~2.3.2:
   version "2.3.2"
@@ -7149,7 +7153,11 @@ react-router@6.3.0:
   dependencies:
     history "^5.2.0"
 
+<<<<<<< HEAD
 react-scripts@5.0.1:
+=======
+react-scripts@^5.0.1:
+>>>>>>> 678cbbe6 (Design changes)
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-5.0.1.tgz#6285dbd65a8ba6e49ca8d651ce30645a6d980003"
   integrity sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==

@@ -6,7 +6,7 @@ import './../css/alpha.css'
 export default function Alpha(){
     function returnEveryLetter() {
         function LoadAlpha(letter) {
-            const [changeColor, setChangeColor] = React.useState('#2c2c2c');
+            const [changeColor, setChangeColor] = React.useState('#454545');
 
             // Change letter color by keyboard inputs
             document.addEventListener('keyup', (event)=>{

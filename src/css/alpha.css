@@ -1,7 +1,17 @@
+#AlphaBck {
+    background-color: #2c2c2c;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+
+    height: 200px; width: 580px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 #alpha {
-    height: 200px; width: 620px;
-    background-color: #3c3c3c;
-    margin: 20px;
+    height: 170px; width: 560px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,14 +19,15 @@
 
 #alpha .alphaLetter {
     height: 50px; width: 50px;
-    background-color: #2c2c2c;
-    margin: 5px;
-    border-radius: 7px;
+    background-color: #5c7c9c;
+    margin: 3px;
+    border-radius: 57px;
     cursor: pointer;
 }
 
 #alpha .alphaLetter p {
+    color: #fff;
     text-align: center;
-    font-size: 30px;
-    margin-top: 5px;
+    font-size: 25px;
+    margin-top: 8px;
 }
