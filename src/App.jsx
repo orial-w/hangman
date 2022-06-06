@@ -2,12 +2,12 @@ import React from 'react';
 import Header from './components/header.jsx'
 import Forc from './components/forc.jsx'
 import Alpha from './components/alpha.jsx'
+import Theme from './components/theme.jsx';
 import chooseWord from './chooseWord.js';
 import qwert from './qwert.json'
-import CryptoJs from 'crypto-js';
 import './css/page.css'
 
-localStorage.setItem('word', CryptoJs.AES.encrypt(chooseWord(), 'claus'));
+chooseWord();
 
 function letterStatus(qwert){
   var jsonStatus = {};
@@ -28,8 +28,11 @@ export default function App() {
     <Header></Header>
       <div id="main">
         <Forc></Forc>
-        <div id="AlphaBck">
-          <Alpha></Alpha>
+        <div id="nonForc">
+          <Theme></Theme>
+          <div id="AlphaBck">
+            <Alpha></Alpha>
+          </div>
         </div>
       </div>
     </div>
